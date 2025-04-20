@@ -25,13 +25,17 @@
             libboost-python-dev libboost-filesystem-dev zlib1g-dev
       - $ make config-gcc
       - $ make 
-      - $ sudo make install   
+      - $ sudo make install
+      - ![Alt Text](images/yosys.jpg) 
     - **Iverilog** - Steps to install iverilog
       - sudo apt-get update
       - sudo apt-get install iverilog
+      - ![Alt Text](images/iverilog.jpg)
     - **GTKWAVE** - Steps to install gtkwave
       - sudo apt-get update
       - sudo apt install gtkwave
+      - ![Alt Text](images/gtkwave.jpg)
+
     - **ngspice** - After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
       - $ tar -zxvf ngspice-37.tar.gz
       - $ cd ngspice-37
