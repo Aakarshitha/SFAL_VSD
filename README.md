@@ -8,10 +8,10 @@
   <Summary> Day 0: Tools Installation</summary>
 
   All the instructions for installation of required tools can be found here:
-  - **System Check**
-    - 6GB RAM, 50 GB HDD
-    - Ubuntu 20.04+
-    - 4vCPU
+  **SYSTEM CHECK**
+  - 6GB RAM, 50 GB HDD
+  - Ubuntu 20.04+
+  - 4vCPU
     
   **TOOL CHECK**
   - **Yosys**
