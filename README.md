@@ -3,7 +3,7 @@
   <Summary> SFAL_VSD SOC</summary>
 
   This project is to create an SOC from specifications to netlist.
-<\details>
+</details>
 <details>
   <Summary> Day 0: Tools Installation</summary>
 
@@ -55,4 +55,4 @@
     - make
     - make install
 
-<\details>
+</details>
