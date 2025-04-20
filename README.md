@@ -32,8 +32,7 @@
   - **GTKWAVE** - Steps to install gtkwave
     - sudo apt-get update
     - sudo apt install gtkwave
-  - **ngspice**
-    After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
+  - **ngspice** - After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
     - $ tar -zxvf ngspice-37.tar.gz
     - $ cd ngspice-37
     - $ mkdir release
