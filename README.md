@@ -60,3 +60,44 @@
       - make install
 
 </details>
+
+<details>
+  <Summary> Day 1 - Introduction to Verilog RTL Design and Synthesis</summary>
+  
+  - **Introduction to iverilog testbench**
+    - RTL Design adherence to the initial architecture specifications is checked by simulation of the design using a simulator tool. That simulator tool we are using here is iverilog.
+    - Design is actual verilog/system verilog code with intended functionality. Has primary inputs and outputs in form of wires or logic/registers/memory elements.
+    - Testbench is a set of stimulus applied with delays and initialisation to ensure that design meets functionality. Does not have any primary inputs or outputs.
+    - Simulator looks for changes in the input signals, based on this, checks its influence on output signals.
+
+  - **Labs using iverilog and gtkwave**
+    - used iverilog to simulate design and testbench of good mux
+    - used gtkwave to view the dumped "value change dump" or vcd file
+    - learnt to use iverilog and gtkwave commands
+    - saw the design and tb files
+   
+  - **Introduction to Yosys and Logic Synthesis**
+    - used Yosys as the synthesizer tool, learnt what synthesis meant
+    - learnt about yosys setup and verification flow, tb for netlist is same as that of rtl design
+    - Learnt about rtl design, synthesis and its illustration, library cells, flavours of library cells
+    - Also learnt about usage of faster versus slower cells, need wider transistors and why we need them
+
+  - **Labs using Yosys and Sky103PDKs**
+    - Synthesised good mux using yosys
+    - OBSERVATION made: I saw only one type of library cell (constrasting to the video) and therefore my good mux design was synthesised using only that library cell
+    - the library cell was sky130_fd_sc_hd__tt_025C_1v80.lib
+    - good mux finally synthesised and the cells it inferred was just 1 2_1 mux cell since only one lib file was there.
+    - **Commands used were**:
+      - read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+      - read_verilog verilog_files/good_mux.v
+      - hierarchy -top good_mux
+      - synth -top good_mux
+      - abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+      - show
+      - write_verilog -noattr synth_out.v
+    - Images for this lab:
+      - ![Alt Text](images/gtkwave.jpg)
+     
+
+ 
+</details>
