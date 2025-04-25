@@ -99,6 +99,7 @@
       - ![Alt Text](images/gtkwave.jpg)
      
 </details>
+
 <details>
   <Summary> Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles</summary>
 
