@@ -5,7 +5,7 @@
   This project is to create an SOC from specifications to netlist.
 </details>
 <details>
-  <Summary> Day 0: Tools Installation</summary>
+  <Summary> Day 0 - Tools Installation</summary>
 
   All the instructions for installation of required tools can be found here:
   - **SYSTEM CHECK**
@@ -98,6 +98,34 @@
     - Images for this lab:
       - ![Alt Text](images/gtkwave.jpg)
      
-
- 
 </details>
+<details>
+  <Summary> Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles</summary>
+
+  - **Introduction to Timing Libs**
+  - **Hierarchical Versus Flat Synthesis**
+  - **Various Flop Coding Styles and Optimisations**
+    
+</details>  
+
+<details>
+  <Summary> Day 3 - Combinational and Sequential Optimisations</summary>
+
+  - **Introduction to Optimisations**
+  - **Combinational Logic Optimisations**
+  - **Sequential Logic Optimisations**
+  - **Sequential Logic Optimisations for unused outputs**
+    
+</details> 
+
+<details>
+  <Summary> Day 4 - GLS, Blocking vs Non-Blocking, simulation-synthesis mismatch</summary>
+
+  - **GLS, Synthesis-Simulation Mismatch, and Blocking vs Non-Blocking Statements**
+  - **Labs on GLS and Synthesis-Simulation Mismatch**
+  - **Labs on Synthesis-Simulation Mismatch for Blocking Statements**
+
+</details> 
+
+
+
