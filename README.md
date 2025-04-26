@@ -216,41 +216,42 @@
   <Summary> Day 4 - GLS, Blocking vs Non-Blocking, simulation-synthesis mismatch</summary>
 
   - **GLS, Synthesis-Simulation Mismatch, and Blocking vs Non-Blocking Statements**
+    - Missing Sensitivity List
+      - GLS introduction and flow with iverilog
+      - ![Alt Text](images/Day4images/GLSiverilog_flow_Day4_vsd.jpg)
+      - ![Alt Text](images/Day4images/GLSintro_Day4_vsd.jpg)
+      - Simulator works mainly on activity - changes in signal values whereas synthesiser only sees functionality
+      - therefore having a correct and complete sensitivity list for always blocks is necessary to avoid synthesis simulation mismatch
+      - Eg of a mux, difference between always@(sel) and always@(*) is highlighted
+      - ![Alt Text](images/Day4images/misssensitvity_synthsimmismatch_Day4_vsd.jpg)
+    - Blocking and Non-Blocking statements
+      - Caveat with blocking nonblocking statements are discussed
+      - Example of aiming for a shift register is used
+      - if blocking assignment is used it is seen as a single flop instead of two flops, this is wrong, as all statements are evaluated in order and assignment of rhs to lhs happens before moving on to next statement, giving wrong behaviour
+      - ![Alt Text](images/Day4images/blockingstatementcaveat1_synthsimmismatch_Day4_vsd.jpg)
+      - ![Alt Text](images/Day4images/blockingstatementcaveat2_synthsimmismatch_Day4_vsd.jpg)
+      - So always use non blocking statement for sequential logic generation, as in non-blocking order of statements do not matter and all rhs is evaluated before all lhs.
+      - ![Alt Text](images/Day4images/blockingstatementcaveat_synthsimmismatch_Day4_vsd.jpg)
   - **Labs on GLS and Synthesis-Simulation Mismatch**
+    - Example of ternary operator based mux used
+    - simulated, synthesised and got netlist, these are the results I got
+    - ![Alt Text](images/Day4images/ternaryop_gls_lab_day4_vsd.jpg)
+    - ![Alt Text](images/Day4images/ternaryop_gls_lab_realnetlist_day4_vsd.jpg)
+    - but this was the expected netlist output
+    - ![Alt Text](images/Day4images/ternaryop_gls_lab_expectednetlist_day4_vsd.jpg)
+    - Ran to get GLS netlist next to get smae simulation result
+    - ![Alt Text](images/Day4images/ternaryop_gls_lab_postglssim_day4_vsd.jpg)
+    - Second example showed synthesis and simulation mismatch for bad mux
+    - ![Alt Text](images/Day4images/badmuxsynthsim_mismatch_Day4_vsd.jpg)
+    - **Commands used to get GLS**
+      - iverilog my_lib/verilog_model/primitives.v my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_netlist.v verilog_files/tb_ternary_operator_mux.v
+      - ./a.out
+      - gtkwave tb_ternary_operator_mux.vcd
+
   - **Labs on Synthesis-Simulation Mismatch for Blocking Statements**
-  - **Images for this lab**
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
-    - ![Alt Text](images/Day4images/)
+    - exmaples of synthesis simulation mismatch for blocking statements here
+    - ![Alt Text](images/Day4images/blockingcaveat_Day4_vsd.jpg)
+    - ![Alt Text](images/Day4images/blcokingcaveatsynthsimmismatch_Day4_vsd.jpg)
 
 </details> 
 
