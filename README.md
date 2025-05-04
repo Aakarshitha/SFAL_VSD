@@ -5,7 +5,7 @@
   This project is to create an SOC from specifications to netlist.
 </details>
 <details>
-  <Summary> Day 0 - Tools Installation</summary>
+  <Summary> Week 0 - Day 0 - Tools Installation</summary>
 
   All the instructions for installation of required tools can be found here:
   - **SYSTEM CHECK**
@@ -62,7 +62,7 @@
 </details>
 
 <details>
-  <Summary> Day 1 - Introduction to Verilog RTL Design and Synthesis</summary>
+  <Summary> Week 1 - Day 1 - Introduction to Verilog RTL Design and Synthesis</summary>
   
   - **Introduction to iverilog testbench**
     - RTL Design adherence to the initial architecture specifications is checked by simulation of the design using a simulator tool. That simulator tool we are using here is iverilog.
@@ -125,7 +125,7 @@
 </details>
 
 <details>
-  <Summary> Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles</summary>
+  <Summary> Week 1 - Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles</summary>
 
   - **Introduction to Timing Libs**
   - **Hierarchical Versus Flat Synthesis**
@@ -173,7 +173,7 @@
 </details>  
 
 <details>
-  <Summary> Day 3 - Combinational and Sequential Optimisations</summary>
+  <Summary> Week 1 - Day 3 - Combinational and Sequential Optimisations</summary>
 
   - **Introduction to Optimisations**
   - **Combinational Logic Optimisations**
@@ -213,7 +213,7 @@
 </details> 
 
 <details>
-  <Summary> Day 4 - GLS, Blocking vs Non-Blocking, simulation-synthesis mismatch</summary>
+  <Summary> Week 1 - Day 4 - GLS, Blocking vs Non-Blocking, simulation-synthesis mismatch</summary>
 
   - **GLS, Synthesis-Simulation Mismatch, and Blocking vs Non-Blocking Statements**
     - Missing Sensitivity List
@@ -255,5 +255,20 @@
 
 </details> 
 
+<details>
+  <Summary> Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic Synthesis </summary>
 
+  - **Lecture 1 - Introduction to the course**
+    - **Common terminology used are**
+      - ![Alt Text](images/Day5_DCDay1_images/)
+    - Synopsys Design Constraints or SDC is commonly used in industry. It is based on tool command language or tcl.
+    - We do a lab of using an imaginary library to invoke DC and see what happens - it is not able to read the yourlibrary.lib file.
+    - So, we see that if we write the netlist, it is written in the form of gtech cells. Gtech in DC is the virtual library in DC's memory to understand the design.
+    - Even after giving the sky130 library file, it gives same wrong output
+    - So, what is missing is the two environment variables to be set to the target sky130 library ie the link_library and the target_library.
+    - After that we need to set link library, here * represents all libraries loaded previously in DC's memory.
+    - This, inclusing * is so that we don't override the existing loaded libraries in DC's memory, just append my new library to be considered into the DC's memory.
+    - Now, it clearly shows linking and loading the design into DC's memory.
+
+</details>
 
