@@ -258,7 +258,7 @@
 <details>
   <Summary> Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic Synthesis </summary>
 
-  - **Lecture 1 - Introduction to the course**
+  - **Day1 - Lecture 1 - Introduction to the course**
     - **Common terminology used are**
       - ![Alt Text](images/Day5_DCDay1_images/)
     - Synopsys Design Constraints or SDC is commonly used in industry. It is based on tool command language or tcl.
@@ -269,6 +269,49 @@
     - After that we need to set link library, here * represents all libraries loaded previously in DC's memory.
     - This, inclusing * is so that we don't override the existing loaded libraries in DC's memory, just append my new library to be considered into the DC's memory.
     - Now, it clearly shows linking and loading the design into DC's memory.
-
+  - **Lecture 2 - Introduction to DC and tool**
+    - **Lab 1 - Invoking DC Basic Setup**
+      - DC tool basic setup was dicussed how to setup link library, target library, how the library file highlights different characteristics of the standard cell and technology.
+      - ![Alt Text](images/Day5_DCDay1_images/)
+    - **Lab 2 - Introduction to DDC GUI with Design Vision**
+      - ![Alt Text](images/Day5_DCDay1_images/)
+    - **Lab3 - DC Synopsys DC Setup**
+      - ![Alt Text](images/Day5_DCDay1_images/)
+  - **Lecture 3- TCL Quick Refresher**
+    - Basic concepts of tcl, code basics etc were discussed.
+    - **Lab4 - TCL Commands**
+      - ![Alt Text](images/Day5_DCDay1_images/)
+  - **Day 2 - Basics of STA**
+    - **Lecture 4 - Intro to STA**
+      - Basics of STA concepts were described and learnt in great detail, with examples and diagrams
+      - ![Alt Text](images/Day6_DCDay2_images/)
+    - **Lecture 5 - What are Constraints**
+      - Constraints are dicussed and transition time and output loads dicussed. Their impact on STA discussed.
+      - ![Alt Text](images/Day6_DCDay2_images/)
+    - **Lecture 6 - Input Trans and Output Load**
+      - Basics were discussed how this affects setup and hold, operating frequency etc.
+      - ![Alt Text](images/Day6_DCDay2_images/)
+    - **Lab 5 - Timing dot libs**
+      - Library files discussed
+      - ![Alt Text](images/Day6_DCDay2_images/)
+    - **Lab 6 - Exploring dotlib P1**
+      - dot lib P1
+      - ![Alt Text](images/Day6_DCDay2_images/)
+    - **Lab 7 - Exploring dotlib P2**
+      - dot lib P2
+      - ![Alt Text](images/Day6_DCDay2_images/)
+  - **Day 3 - Advanced STA**
+    - **Lecture 7 - SDC P1 Clock and Clock Tree Modelling - Uncertainity**
+      - Basics of clock uncertainity like jitter and skew, and how it impacts clock integrity and timing closure.
+      - ![Alt Text](images/Day7_DCDay3_images/)
+    - **Lecture 8 - SDC P2 IO Delays**
+      - Discussion of input and output delay constraints
+      - ![Alt Text](images/Day7_DCDay3_images/)
+    - **Lab 8 -**
+    - **Lab 9 -**
+    - **Lab 10 -**
+    - **Lab 11 -**
+    - **Lab 12 -**
+    - 
 </details>
 
