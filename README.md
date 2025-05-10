@@ -260,7 +260,6 @@
 
   - **Day1 - Lecture 1 - Introduction to the course**
     - **Common terminology used are**
-      - ![Alt Text](images/Day5_DCDay1_images/)
     - Synopsys Design Constraints or SDC is commonly used in industry. It is based on tool command language or tcl.
     - We do a lab of using an imaginary library to invoke DC and see what happens - it is not able to read the yourlibrary.lib file.
     - So, we see that if we write the netlist, it is written in the form of gtech cells. Gtech in DC is the virtual library in DC's memory to understand the design.
