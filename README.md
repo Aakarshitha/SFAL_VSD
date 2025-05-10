@@ -272,34 +272,85 @@
   - **Lecture 2 - Introduction to DC and tool**
     - **Lab 1 - Invoking DC Basic Setup**
       - DC tool basic setup was dicussed how to setup link library, target library, how the library file highlights different characteristics of the standard cell and technology.
-      - ![Alt Text](images/Day5_DCDay1_images/)
     - **Lab 2 - Introduction to DDC GUI with Design Vision**
-      - ![Alt Text](images/Day5_DCDay1_images/)
     - **Lab3 - DC Synopsys DC Setup**
-      - ![Alt Text](images/Day5_DCDay1_images/)
   - **Lecture 3- TCL Quick Refresher**
     - Basic concepts of tcl, code basics etc were discussed.
     - **Lab4 - TCL Commands**
-      - ![Alt Text](images/Day5_DCDay1_images/)
+  - **Images for the above labs**
+    - ![Alt Text](images/Day5_DCDay1_images/cell_selection_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/faster_slowercells_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/gate_flavor1_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/gate_flavor2_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/good,uxdesign_Day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/goodmuxtb_Day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/gtkwave1_Day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/installations_Day1_VSD.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/iverilog1_Day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/libcells_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/rtldesign_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/simulator_flow_Day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/synthesis_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/synthesis_illustration_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/testbench_Day1_VSD.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_1_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_2_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_3_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_4_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_5_day1_show_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_6_day1_show_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_7_day1_netlist_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_lab3_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_setupflow_day1_vsd.jpg)
+    - ![Alt Text](images/Day5_DCDay1_images/yosys_verificationflow_day1_vsd.jpg)
+
   - **Day 2 - Basics of STA**
     - **Lecture 4 - Intro to STA**
       - Basics of STA concepts were described and learnt in great detail, with examples and diagrams
-      - ![Alt Text](images/Day6_DCDay2_images/)
     - **Lecture 5 - What are Constraints**
       - Constraints are dicussed and transition time and output loads dicussed. Their impact on STA discussed.
-      - ![Alt Text](images/Day6_DCDay2_images/)
     - **Lecture 6 - Input Trans and Output Load**
       - Basics were discussed how this affects setup and hold, operating frequency etc.
-      - ![Alt Text](images/Day6_DCDay2_images/)
     - **Lab 5 - Timing dot libs**
       - Library files discussed
-      - ![Alt Text](images/Day6_DCDay2_images/)
     - **Lab 6 - Exploring dotlib P1**
       - dot lib P1
-      - ![Alt Text](images/Day6_DCDay2_images/)
     - **Lab 7 - Exploring dotlib P2**
       - dot lib P2
-      - ![Alt Text](images/Day6_DCDay2_images/)
+    - **Images for the Labs**
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img1.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img2.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img3.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img4.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img5.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img6.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab5_img7.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab6_img1.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab6_img2.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab6_img3.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab6_img4.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab6_img5.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab6_img6.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab7_img1.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab7_img2.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab7_img3.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab7_img4.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lab7_img5.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec4_img1.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec4_img2.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec4_img3.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec4_img4.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec4_img5.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec5_img1.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec5_img2.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec5_img3.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec5_img4.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec5_img5.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec6_img1.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec6_img2.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec6_img3.jpg)
+      - ![Alt Text](images/Day6_DCDay2_images/vsd_DC_Day2_STA_lec6_img4.jpg)
+
   - **Day 3 - Advanced STA**
     - **Lecture 7 - SDC P1 Clock and Clock Tree Modelling - Uncertainity**
       - Basics of clock uncertainity like jitter and skew, and how it impacts clock integrity and timing closure.
