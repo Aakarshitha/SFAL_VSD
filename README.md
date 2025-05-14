@@ -371,6 +371,12 @@
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lec8_img8.jpg)
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lec8_img9.jpg)
     - **Lab 8 - Loading design- get_ports, get_nets, get_cells**
+      - source the .synopsys_dc.setup file from home = > make sure link library and target_libarry are set properly
+      - pwd is ../DC_WORKSHOP/verilog_files/
+      - read_verilog lab8_circuit.v
+      - check if it completed successfully
+      - link
+      - compile_ultra
       - design load, use of get_ports, get_nets, get_cells, hier or not, small tcl commands and scripts.
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab8_img1.jpg)
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab8_img2.jpg)
