@@ -485,13 +485,31 @@
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec12_img3.jpg)
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec12_img4.jpg)
     - **Lab16 - Combinational Optimizations Part 1**
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img1.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img2.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img3.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img4.jpg)
     - **Lab16 - Resource Sharing Optimizations Part2**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img5.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img6.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img7.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img8.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img9.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img10.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img11.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img12.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab16_img13.jpg)
     - **Lab17 - Sequential Optimizations**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img1.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img10.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img2.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img3.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img4.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img5.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img6.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img7.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img8.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab17_img9.jpg)
     - **Lec13 - Special optimizations**
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec13_img1.jpg)
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec13_img2.jpg)
@@ -510,32 +528,29 @@
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec14_img5.JPG)
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec14_img6.JPG)
     - **Lab18 - Boundary Optimmizations**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img1.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img2.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img3.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img4.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img5.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img6.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img7.jpg)
     - **Lab19 - Register Retiming**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - 
     - **Lab20 - Isolating Output Ports**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - 
     - **Lab21 - Multicycle Path**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - 
   - **Day5 - Quality Checks**
     - **Lecture Report Timing**
       - Learnt about report_timing commands and -max_paths2 and nworst
       - difference between them
       - ![Alt Text](images/Day9_DCDay5_images/vsd_DC_Day3_SDC_lec15_img1.JPG)
       - ![Alt Text](images/Day9_DCDay5_images/vsd_DC_Day3_SDC_lec15_img2.JPG)
-
     - **Lab - Report Timing**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - 
     - **Lab - Check Timing, check design and max_capacitance**
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
-      - ![Alt Text](images/Day7_DCDay3_images/
+      - 
 
 
 
