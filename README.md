@@ -536,11 +536,33 @@
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img6.jpg)
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab18_img7.jpg)
     - **Lab19 - Register Retiming**
-      - 
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab19_img1.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab19_img2.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab19_img3.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab19_img4.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab19_img5.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab19_img6.jpg)
     - **Lab20 - Isolating Output Ports**
-      - 
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab20_img1.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab20_img2.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab20_img3.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab20_img4.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab20_img5.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab20_img6.jpg)
     - **Lab21 - Multicycle Path**
-      - 
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img1.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img10.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img11.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img12.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img13.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img2.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img3.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img4.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img5.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img6.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img7.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img8.jpg)
+      - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day4_SDC_lab21_img9.jpg)
   - **Day5 - Quality Checks**
     - **Lecture Report Timing**
       - Learnt about report_timing commands and -max_paths2 and nworst
