@@ -287,16 +287,6 @@
   - **Images for the above labs**
     - ![Alt Text](images/Day5_DCDay1_images/cell_selection_day1_vsd.jpg)
     - ![Alt Text](images/Day5_DCDay1_images/gtkwave1_Day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/installations_Day1_VSD.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/iverilog1_Day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/libcells_day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/rtldesign_day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/simulator_flow_Day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/synthesis_day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/synthesis_illustration_day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/testbench_Day1_VSD.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/yosys_setupflow_day1_vsd.jpg)
-    - ![Alt Text](images/Day5_DCDay1_images/yosys_verificationflow_day1_vsd.jpg)
 
   - **Day 2 - Basics of STA**
     - **Lecture 4 - Intro to STA**
