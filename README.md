@@ -409,8 +409,6 @@
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab15_img9.jpg)
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab15_img10.JPG)
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab15_img11.jpg)
-
-
     - **Lab15 - virtual clk Part 2**
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab15_img12.jpg)
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lab15_img13.jpg)
