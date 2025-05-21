@@ -1,6 +1,6 @@
 
 <details>
-  <Summary>**SFAL_VSD SOC - ABOUT/README**</summary>
+  <Summary>SFAL_VSD SOC - ABOUT/README</summary>
 
   This project is to create an SOC from specifications to netlist.
 </details>
