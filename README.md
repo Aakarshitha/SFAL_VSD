@@ -534,7 +534,7 @@
   
   - **Introduction to SOC**
     - An SOC or System on Chip is essentially a system consisting of different IPs and components that are integrated together on a single chip to form a working, fuly functional device working at a specific operating frequency. The various components on it generally includes a microprocessor, like a RISC-V CPU like RVMYTH, some memory IPs, ADCs, DACs, to convert from analog to digital and viceversa, some serial interfaces to have I/O, like LEDs, SPI, I2C, UART some high frequency operating IPs lie Ethernet or PCIE and perhaps a NOC or network on chip/bridge that interacts with all these togehter to get work done. This systems has a lot of complexity usually, due to the various different components involved and the transactions between them, which makes it an ideal option for complex tasks.
-    - ![Alt Text](images/Week3_BabySOC_Modelling/SOCimg1.jpg)
+    - ![Alt Text](images/Week3_BabySOC_Modelling/SOCimg1.jpeg)
 
   - **Common Components of an SOC**
     - **Central Processor Unit(CPU)** - There is the central processing unit that executes instructions and manages program flow.
@@ -557,7 +557,7 @@
       - ![Alt Text](images/Week3_BabySOC_Modelling/PLLs.jpg)
     - **Digital to Analog Convertor(DAC)**
       - A Digital to Analog Convertor or DAc is a fundamental electrical component that can convert digital signals into its analog form, and can do it in many ways forming different types of DACs. Their functionality is measued by metrics called Integral Non-Linearity/INL and Differential Non-Linearity/DNL. An example below is the R/2R DAC. DACs and ADCs have several applications in SOCs, in various applications that have the conversion of communication/transactions between the digital and analo world.
-      - ![Alt Text](images/Week3_BabySOC_Modelling/dACimg.jpg)
+      - ![Alt Text](images/Week3_BabySOC_Modelling/dACimg.png)
     - **RVMYTH**
       - RVMYTH is an RISC-V Processor IP Core that is designed by students in the VSD and Redwood EDA in TL Verilog. It is open-source and free to be used by students and professors/mentors.
       - ![Alt Text](images/Week3_BabySOC_Modelling/vsdbabysoc_block_diagram.jpg)
