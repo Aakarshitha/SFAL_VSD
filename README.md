@@ -557,11 +557,12 @@
       - ![Alt Text](images/Week3_BabySOC_Modelling/PLLs.jpg)
     - **Digital to Analog Convertor(DAC)**
       - A Digital to Analog Convertor or DAc is a fundamental electrical component that can convert digital signals into its analog form, and can do it in many ways forming different types of DACs. Their functionality is measued by metrics called Integral Non-Linearity/INL and Differential Non-Linearity/DNL. An example below is the R/2R DAC. DACs and ADCs have several applications in SOCs, in various applications that have the conversion of communication/transactions between the digital and analo world.
-      - - ![Alt Text](images/Week3_BabySOC_Modelling/dACimg.jpg)
+      - ![Alt Text](images/Week3_BabySOC_Modelling/dACimg.jpg)
     - **RVMYTH**
       - RVMYTH is an RISC-V Processor IP Core that is designed by students in the VSD and Redwood EDA in TL Verilog. It is open-source and free to be used by students and professors/mentors.
+      - ![Alt Text](images/Week3_BabySOC_Modelling/vsdbabysoc_block_diagram.jpg)
         
-  -  **Advantages and Key challenges with SOCs**
+  - **Advantages and Key challenges with SOCs**
      - High integration reduces board size and cost and the lower power consumption due to fewer external components.
      - They can have better performance from on-chip communication. They have increased reliability and compact form factor.
      - However, they are complex to design and verify and to meet the required operating frequency.
@@ -575,12 +576,15 @@
     - **AI Edge Devices** – Local inference with NPUs or GPUs (e.g., Google Edge TPU).
     - **Industrial/Networking** – High-speed data handling and control.
    
-  -  **Types of SoCs**
+  - **Types of SoCs**
     - **Microprocessor-based** – General-purpose, OS-capable (e.g., ARM Cortex-A).
     - **Microcontroller-based** – Embedded, low-power systems (e.g., STM32).
     - **Application-specific (ASIC)** – Optimized for specific tasks like AI or modems.
     - **FPGA-based** – Reconfigurable logic with CPUs (e.g., Xilinx Zynq).
     - **Heterogeneous** – Mix of CPUs, GPUs, NPUs for diverse tasks (e.g., Apple M-series).
+
+  - **VSD BabySOC Modelling**
+    - 
 
 
 
