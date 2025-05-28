@@ -1,3 +1,7 @@
+Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic Synthesis
+
+
+This document talks about quality checks, timing reports in DC.
 
 <details>
   <Summary>**Day5 - Quality Checks**</summary>
