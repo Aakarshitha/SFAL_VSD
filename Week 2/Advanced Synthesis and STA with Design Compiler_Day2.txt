@@ -1,3 +1,8 @@
+Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic Synthesis
+
+
+This document talks about basics of STA.
+
  <details>
   <Summary>**Day 2 - Basics of STA**</summary>
     - **Lecture 4 - Intro to STA**
