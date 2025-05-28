@@ -1,3 +1,8 @@
+Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic Synthesis
+
+
+This document talks about advanced STA, timing constraints and running DC to understand them.
+
 <details>
   <Summary>**Day 3 - Advanced STA**</summary>
     - **Lecture 7 - SDC P1 Clock and Clock Tree Modelling - Uncertainity**
