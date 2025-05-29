@@ -3,7 +3,7 @@ Week 3 - BabySoC Introduction
 This week we understand system on chip, thier significance, different components and their application using BabySOC @ https://github.com/manili/VSDBabySoC?tab=readme-ov-file#openlane-details-and-flow 
   
   <details>
-  <Summary>  **Introduction to SOC**</summary>
+  <Summary>  Introduction to SOC </summary>
      An SOC or System on Chip is essentially a system consisting of different IPs and components that are integrated together on a single chip to form a working, fuly functional device working at a specific operating frequency. The various components on it generally includes a microprocessor, like a RISC-V CPU like RVMYTH, some memory IPs, ADCs, DACs, to convert from analog to digital and viceversa, some serial interfaces to have I/O, like LEDs, SPI, I2C, UART some high frequency operating IPs lie Ethernet or PCIE and perhaps a NOC or network on chip/bridge that interacts with all these togehter to get work done. This systems has a lot of complexity usually, due to the various different components involved and the transactions between them, which makes it an ideal option for complex tasks.
      ![Alt Text](images/Week3_BabySOC_Modelling/SOCimg1.jpeg)
 
