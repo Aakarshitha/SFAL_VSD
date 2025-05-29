@@ -3,7 +3,7 @@ Week 1 - RTL Design and Synthesis
 This document gives details and learning from the Week 1 module of RTL Design and Synthesis and concepts related to it.
 
 <details>
-  <Summary> **Day 1 - Introduction to Verilog**</summary>
+  <Summary> Day 1 - Introduction to Verilog</summary>
     - **Introduction to iverilog testbench**
       - RTL Design adherence to the initial architecture specifications is checked by simulation of the design using a simulator tool. That simulator tool we are using here is iverilog.
       - Design is actual verilog/system verilog code with intended functionality. Has primary inputs and outputs in form of wires or logic/registers/memory elements.
