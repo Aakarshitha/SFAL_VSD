@@ -5,7 +5,8 @@ This document talks about advanced STA, timing constraints and running DC to und
 
 <details>
   <Summary>Day 3 - Advanced STA</summary>
-    - **Lecture 7 - SDC P1 Clock and Clock Tree Modelling - Uncertainity**
+  
+  - **Lecture 7 - SDC P1 Clock and Clock Tree Modelling - Uncertainity**
       - Basics of clock uncertainity like jitter and skew, and how it impacts clock integrity and timing closure.
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lec7_img1.jpg)
       - ![Alt Text](images/Day7_DCDay3_images/vsd_DC_Day3_SDC_lec7_img2.jpg)
