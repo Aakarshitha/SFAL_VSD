@@ -3,7 +3,7 @@ Week4 - BabySOC Modelling
 This week we are learning about modelling and simulating VSD's BabySOC, with the RVMYTH processor, PLL and DAC components. Modelling will help us learn, understand and simulate the microarchitecture of the SOC, and observe the simulated GTKWave.
 
 <details>
-  <Summary>  **Introduction to BabySOC Modelling**</Summary>
+  <Summary> Introduction to BabySOC Modelling</Summary>
   
   - Model and simulate the VSDBabySoC using iverilog, then we will show the results using gtkwave tool. 
   - VSDBabysoc module is initialised with values, resulting in PLL's clock generation, CLK for the circuit. 
@@ -23,7 +23,7 @@ This week we are learning about modelling and simulating VSD's BabySOC, with the
   </details>
 
   <details>
-  <Summary>  **BabySOC Modelling Process**</Summary>
+  <Summary>  BabySOC Modelling Process </Summary>
 
   - Digital output value fed into the DAC is increased/decreased to observe changes on the DAC output.
   - Code snippet is as follows:
