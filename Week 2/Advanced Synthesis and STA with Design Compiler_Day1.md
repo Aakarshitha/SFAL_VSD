@@ -4,7 +4,7 @@
 This document talks about introduction to synthesis and STA.
 
   <details>
-  <Summary>**Day1 - Lecture 1 - Introduction to the course** </summary>
+  <Summary>Day1 - Lecture 1 - Introduction to the course </summary>
     - **Common terminology used are**
     - Synopsys Design Constraints or SDC is commonly used in industry. It is based on tool command language or tcl.
     - We do a lab of using an imaginary library to invoke DC and see what happens - it is not able to read the yourlibrary.lib file.
