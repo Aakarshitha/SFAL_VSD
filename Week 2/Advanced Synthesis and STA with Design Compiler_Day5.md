@@ -4,7 +4,7 @@ Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic
 This document talks about quality checks, timing reports in DC.
 
 <details>
-  <Summary>**Day5 - Quality Checks**</summary>
+  <Summary>Day5 - Quality Checks</summary>
     - **Lecture Report Timing**
       - Learnt about report_timing commands and -max_paths2 and nworst
       - difference between them
