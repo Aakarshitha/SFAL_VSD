@@ -27,17 +27,20 @@ This week we are learning about modelling and simulating VSD's BabySOC, with the
 
   - Digital output value fed into the DAC is increased/decreased to observe changes on the DAC output.
   - Code snippet is as follows:
-  - $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
-  - $ sudo chmod 666 /var/run/docker.sock
-  - $ cd ~
-  - $ pip3 install pyyaml click sandpiper-saas
+```
+   $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
+   $ sudo chmod 666 /var/run/docker.sock
+   $ cd ~
+   $ pip3 install pyyaml click sandpiper-saas
+```
   - Come out of the dircetory, clone the respitory and do it in an arbitary directory structure.
-  - $ cd ~
-  - $ git clone https://github.com/manili/VSDBabySoC.git
+```
+   $ cd ~
+   $ git clone https://github.com/manili/VSDBabySoC.git
+```
 
-  - cd to the dircetory $ cd VSDBabySoC
-  - To convert TLV RVMYTH processor into verilog, use sandpiper with the command below:
-  - sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
+  - cd to the dircetory `$ cd VSDBabySoC`
+  - To convert TLV RVMYTH processor into verilog, use sandpiper command `sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/`
 
 
    </details>
