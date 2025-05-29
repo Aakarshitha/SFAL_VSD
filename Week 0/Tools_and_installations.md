@@ -4,7 +4,7 @@
 This module for Week 0 talks about tools and isntallations required to get started.
 
 <details>
-   <Summary> **Day 0** </summary>
+   <Summary> Day 0 </summary>
   - All the instructions for installation of required tools can be found here:
     - **SYSTEM CHECK**
       - 6GB RAM, 50 GB HDD
