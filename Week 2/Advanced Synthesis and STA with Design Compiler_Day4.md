@@ -5,7 +5,8 @@ This document talks about optimizations in synthesis and using advanced STA to d
 
 <details>
   <Summary>Day4 - Optimizations</summary>
-    - **Lec11 - Combinational Optimizations**
+  
+  - **Lec11 - Combinational Optimizations**
       - optimizations like constant
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec11_img5.jpg)
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec11_img6.jpg)
