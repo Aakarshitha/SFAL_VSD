@@ -4,7 +4,7 @@ Week 2 - Advanced Synthesis and STA with Design Compiler - Introduction to Logic
 This document talks about optimizations in synthesis and using advanced STA to do it.  
 
 <details>
-  <Summary>**Day4 - Optimizations**</summary>
+  <Summary>Day4 - Optimizations</summary>
     - **Lec11 - Combinational Optimizations**
       - optimizations like constant
       - ![Alt Text](images/Day8_DCDay4_images/vsd_DC_Day3_SDC_lec11_img5.jpg)
