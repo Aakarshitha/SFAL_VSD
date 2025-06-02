@@ -49,7 +49,7 @@ This week we are learning about modelling and simulating VSD's BabySOC, with the
 
   - cd to the dircetory `$ cd VSDBabySoC`
   - To convert TLV RVMYTH processor into verilog, use sandpiper command `sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/`
-  - ![Alt Text](images/Week4_BabySOC_Modelling/Bbaysoc_sandpiper.jpg)
+  - ![Alt Text](../images/Week4_BabySOC_Modelling/Bbaysoc_sandpiper.jpg)
 
   - cd to output directory to see the pre synthesis waveform `$ cd output/pre_synth_sim/`
 
@@ -57,8 +57,8 @@ This week we are learning about modelling and simulating VSD's BabySOC, with the
 
   - `$ gtkwave pre_synth_sim.out &` - to open simulation waveform in gtkwave tool.
   - or just do `$ make pre_synth_sim` to get the final vcd file.
-  - ![Alt Text](images/Week4_BabySOC_Modelling/babysoc_presynth1.jpg)
-  - ![Alt Text](images/Week4_BabySOC_Modelling/babysoc_presynth2.jpg)
+  - ![Alt Text](../images/Week4_BabySOC_Modelling/babysoc_presynth1.jpg)
+  - ![Alt Text](../images/Week4_BabySOC_Modelling/babysoc_presynth2.jpg)
 
   - Notes for the waveform:
     In this picture we can see the following signals--
