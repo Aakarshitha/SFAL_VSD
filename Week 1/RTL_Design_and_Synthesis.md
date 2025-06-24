@@ -64,7 +64,7 @@ This document gives details and learning from the Week 1 module of RTL Design an
 
 </details> 
 <details>
-  <Summary> **Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles**</summary>
+  <Summary> Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles </summary>
 
     - **Introduction to Timing Libs**
     - **Hierarchical Versus Flat Synthesis**
@@ -112,7 +112,7 @@ This document gives details and learning from the Week 1 module of RTL Design an
 </details> 
       
  <details>
-  <Summary> **Day 3 - Combinational and Sequential Optimisations**</summary>
+  <Summary> Day 3 - Combinational and Sequential Optimisations </summary>
 
     - **Introduction to Optimisations**
     - **Combinational Logic Optimisations**
@@ -152,7 +152,7 @@ This document gives details and learning from the Week 1 module of RTL Design an
 </details> 
 
  <details>
-  <Summary> **Day 4 - GLS, Blocking vs Non-Blocking, simulation-synthesis mismatch**</summary>
+  <Summary> Day 4 - GLS, Blocking vs Non-Blocking, simulation-synthesis mismatch </summary>
 
     - **GLS, Synthesis-Simulation Mismatch, and Blocking vs Non-Blocking Statements**
       - Missing Sensitivity List
