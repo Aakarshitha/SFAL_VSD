@@ -62,7 +62,7 @@ This document gives details and learning from the Week 1 module of RTL Design an
         - ![Alt Text](images/Day1images/yosys_lab3_7_day1_netlist_vsd.jpg)
         - ![Alt Text](images/Day1images/yosys_lab3_day1_vsd.jpg)
 
-
+</details> 
 <details>
   <Summary> **Day 2 - Timing Libs, Hierarchical versus flat synthesis, and efficient flop coding styles**</summary>
 
