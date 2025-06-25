@@ -23,6 +23,7 @@ This task involved synthesis of BabySOC followed by GLS, Gate Level Simulation t
       - write_lib avsddac -format db -output avsddac.db
     - Here, in this step, I faced lot of issues in the sky130_fd_sc_hd__tt_025C_1v80.lib file, with braces formatting, and some specifications, which gave errors and warnings that prevented me from this conversion.
     - I wrote python scripts and used sed or awk commands to solve these issues to reformat the .lib file to be correct, all which are discussed below in the bugs section.
+      
   - **Synthesis using DC-Design Compiler**
     - These are the commands used to perform synthesis process using Synopsys Design Compiler.
       - cd Desktop/aakarshitha/VSDBabySoC/src/lib
@@ -35,6 +36,28 @@ This task involved synthesis of BabySOC followed by GLS, Gate Level Simulation t
       - compile_ultra
       - write_file -format verilog -hierarchy -output /home/aakarshitha/VSDBabySoC/output/vsdbabysoc_net.v
       - report_qor > report_qor.txt
+    - Images for this work
+      - avsddac images
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell1.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell2.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell3.jpg)
+      - sky130 images
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_launch_targetlib_set.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_launch_linklib_set.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_launch_read_file.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_launch_searchpath_set.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_Shell_link.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_Shell_compile_ultra.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_Shell_compileultra1.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_Shell_compileultra2.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_Shell_compileultra3.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_inferred_jalr_xor.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_inferred_mem.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_mux_ops.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/read_lib_to_db_sky130.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/write_lib_to_db_sky130.jpg)
+        - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/dc_shell_report_qor.jpg)
+          
   - **Post Synthesis GLS Simulation**
     - Use these commands below:
       - cd Desktop/aakarshitha/VSDBabySoC/
@@ -42,7 +65,22 @@ This task involved synthesis of BabySOC followed by GLS, Gate Level Simulation t
       - cd Desktop/aakarshitha/VSDBabySoC/output/
       - ./post_synth_sim.out
       - gtkwave dump.vcd
-
+    - Images for this step:
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/gls1.jpg)
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/gtkwave_post_synth.jpg)
+        
+  - **Bugs faced during the process and their fixes**
+    - Errors during .lib to .db conversion for avsdpll.lib
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell_read_lib_error_avsdpll1.jpg)
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell_read_lib_error_avsdpll2.jpg)
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell_read_lib_error_avsdpll3.jpg)
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/lc_shell_read_lib_error_avsdpll4.jpg)
+    - Errors during .lib conversion of sky130 lib file
+      - images/Week5-6_BabySOC_PostSynthesis_Simulation/
+      - 
+    - Errors during GLS simulation
+      - ![Alt Text](../images/Week5-6_BabySOC_PostSynthesis_Simulation/elab_errors.jpg)
+      
 
   
   
