@@ -30,7 +30,7 @@ This task involved synthesis of BabySOC followed by GLS, Gate Level Simulation t
       - dc_shell (Launch DC shell)
       - set target_library /home/aakarshitha/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db
       - set link_library {* /home/aakarshitha/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db /home/aakarshitha/VSDBabySoC/src/lib/avsdpll.db /home/aakarshitha/VSDBabySoC/src/lib/avsddac.db}
-      - set search_path {/home/aakarshitha/VSDBabySoC/src/include /home/bhaskar/vsd/VSDBabySOC/VSDBabySoC/src/module}
+      - set search_path {/home/aakarshitha/VSDBabySoC/src/include /home/aakarshitha/VSDBabySoC/src/module}
       - read_file {sandpiper_gen.vh  sandpiper.vh  sp_default.vh  sp_verilog.vh clk_gate.v rvmyth.v rvmyth_gen.v vsdbabysoc.v} -autoread -top vsdbabysoc
       - link
       - compile_ultra
