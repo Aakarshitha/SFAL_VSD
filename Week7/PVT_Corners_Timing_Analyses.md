@@ -1,20 +1,23 @@
-Week 7 - Process, Voltage and Temperature Corners with Timing Analysis and Impact on BabySOC
+![image](https://github.com/user-attachments/assets/4666a10a-18bd-466f-8465-0347fec965f8)Week 7 - Process, Voltage and Temperature Corners with Timing Analysis and Impact on BabySOC
 
-This task involved synthesis, timing analysis and reporting of post synthesis simulations for the multiple corners of Process, Voltage and Temperatures, on VSD BabySOC, using SDC(Synopsys Design Constraints) file, and other stimulus. This is usualyl donein industry with various PVT corners to ensure best operation for the required PPA specifications. 
+This task involved synthesis, timing analysis and reporting of post synthesis simulations for the multiple corners of Process, Voltage and Temperatures, on VSD BabySOC, using SDC(Synopsys Design Constraints) file, and other stimulus. This is usually done in industry with various PVT corners to ensure best operation for the required PPA specifications. 
 
 <details>
   <Summary> Post Synthesis and SImulation in BabySOC Modelling</Summary>
   
-  - **What is Pre and Post Synthesis Simulations, what is the difference?**
+  - **What is PVT, SDC and Timing Analysis?**
     - 
-  - **Conversion of .lib files to .db files**
-    - The files
+  - **Reading SDC constraints and synthesising the design**
+    - Commands used are:
+      - dc_shell
+      - set target_library /home/aakarshitha/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db
+      - set link_library {* /home/aakarshitha/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db /home/aakarshitha/VSDBabySoC/src/lib/avsdpll.db /home/aakarshitha/VSDBabySoC/src/lib/avsddac.db}
+      - set search_path {/home/aakarshitha/VSDBabySoC/src/include /home/aakarshitha/VSDBabySoC/src/module}
+      - read_file {sandpiper_gen.vh sandpiper.vh sp_default.vh sp_verilog.vh clk_gate.v rvmyth.v rvmyth_gen.v vsdbabysoc.v} -autoread -top vsdbabysoc
+      - 
       
-  - **Synthesis using DC-Design Compiler**
-    - These are the commands used to perform synthesis process using Synopsys Design Compiler.
-      - cd Desktop/aakarshitha/VSDBabySoC/src/lib
-      - dc_shell (Launch DC shell)
-      - set target_library /home/aakarshitha/VSDBabySoC/src/lib/
+  - **S**
+    - adfds
     - Images for this work
       - avsddac images
 
