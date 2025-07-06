@@ -77,7 +77,12 @@ This task involved synthesis, timing analysis and reporting of post synthesis si
      - ![Alt Text](../images/Week7/wns_vs_pvt_corner.jpg)
        
   - **Important Notable things during each step**
-    - 
+    - Errors and Precautions
+      - Do not use real data type, itor, or delays in your design code.
+      - Make sure any changes in your design .v files also get reflected in your .lib file so that the pins, etc match and not give any errors in DC during synthesis
+      - Mkae sure all steps are correct, have correct search paths and file paths in your run scripts for PVT corners.
+    - Result Anlysis
+      - Only for ss_n40C_1v28 PVT corner, the Worst Negative Slack is seen as negative, rest all are positive, even if close to 0. Mainly the slack needs to be postive.
       
 
   
