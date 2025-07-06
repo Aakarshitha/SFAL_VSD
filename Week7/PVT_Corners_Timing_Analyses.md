@@ -36,18 +36,21 @@ This task involved synthesis, timing analysis and reporting of post synthesis si
       - Download Libraries: Obtain .lib files for different corners from [This](https://github.com/efabless/skywater-pdk-libs-sky130_fd_sc_hd/tree/master/timing).
       - Convert .lib to .db: Using Synopsys LC Shell, convert the .lib files to .db format for use in synthesis.
       - Script named conversion.sh contains the commands as in the image below. Use this to set the path for the tcl script that will do the conversion.
-      - image
+      - ![Alt Text](../images/Week7/conversion.sh.jpg)
       - Make a directory using "mkdir db_files". Create TCL file nano lib2db.tcl.
-      - image
+      - ![Alt Text](../images/Week7/lib2db_tcl.jpg)
+      - ![Alt Text](../images/Week7/lib2db_conv_script_run.jpg)
       - Run conversion.sh using the command "./conversion.sh"
       - Then you get all the .db files inside the src/db_files directory.
-      - image
+      - ![Alt Text](../images/Week7/db_files_outputfiles.jpg)
     - Synthesis Script for multi-PVT Corners and result analysis
       - Follow the following steps to run a script that can use Design Compiler and run multiple PVT corners syntheses for the VSDBabySoC.
       - Create a pvt_corners.sh script wiht following content. It is used to set and run the tcl file and log path for the DC run.
-      - image
+      - ![Alt Text](../images/Week7/pvt_corners_shell.jpg)
       - Create under src/script directory your tcl script named pvt_corners.tcl
-      - image
+      - ![Alt Text](../images/Week7/script_pvtcorners1.jpg)
+      - ![Alt Text](../images/Week7/pvt_corners_tcl1.jpg)
+      - ![Alt Text](../images/Week7/pvt_corners_tcl2.jpg)
       - Go to VSDBabySoC and run the pvt corners shell script as "./pvt_corners.sh"
       - This will give your report_timing.rpt result in the same directory, open it to see all the Worst Negative Slack and Worst Hold Slack for each corner to get a comparison between different PVT.
     - Resulting analysis for multiple PVTs by synthesis using Design Compiler, performed using a shell script:
@@ -69,9 +72,9 @@ This task involved synthesis, timing analysis and reporting of post synthesis si
 | ss_n40C_1v76     | 0.0142012  | 0.510206  |
 | tt_025C_1v80     | 0.0288324  | 0.31604   |
 | tt_100C_1v80     | 0.0239305  | 0.32076   |
-     - image - report
-     - image - graph WHS vs PVT
-     - iamge - graph WNS vs PVT
+     - ![Alt Text](../images/Week7/report_timing_rpt.jpg)
+     - ![Alt Text](../images/Week7/whs_vs_pvt_corner.jpg)
+     - ![Alt Text](../images/Week7/wns_vs_pvt_corner.jpg)
        
   - **Important Notable things during each step**
     - 
