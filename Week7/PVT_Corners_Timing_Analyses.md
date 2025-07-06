@@ -3,7 +3,7 @@ Week 7 - Process, Voltage and Temperature Corners with Timing Analysis and Impac
 This task involved synthesis, timing analysis and reporting of post synthesis simulations for the multiple corners of Process, Voltage and Temperatures, on VSD BabySOC, using SDC(Synopsys Design Constraints) file, and other stimulus. This is usually done in industry with various PVT corners to ensure best operation for the required PPA specifications. 
 
 <details>
-  <Summary> Post Synthesis and Simulation in BabySOC Modelling</Summary>
+  <Summary> Post Synthesis and Multi PVT Corner Analysis in BabySOC Modelling</Summary>
   
   - **What is PVT, SDC and Timing Analysis?**
     - 
