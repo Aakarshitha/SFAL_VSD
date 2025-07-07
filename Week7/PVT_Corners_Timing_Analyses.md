@@ -73,8 +73,8 @@ This task involved synthesis, timing analysis and reporting of post synthesis si
 | tt_025C_1v80     | 0.0288324  | 0.31604   |
 | tt_100C_1v80     | 0.0239305  | 0.32076   |
      - ![Alt Text](../images/Week7/report_timing_rpt.jpg)
-     - ![Alt Text](../images/Week7/whs_vs_pvt_corner.jpg)
-     - ![Alt Text](../images/Week7/wns_vs_pvt_corner.jpg)
+     - ![Alt Text](../images/Week7/whs_vs_pvt_corner.png)
+     - ![Alt Text](../images/Week7/wns_vs_pvt_corner.png)
        
   - **Important Notable things during each step**
     - Errors and Precautions
